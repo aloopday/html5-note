@@ -1,5 +1,9 @@
 ﻿ # My-Html5-Note
 
+ ## HTML handbook
+
+ [Html5 handbook](https://www.runoob.com/tags/html-reference.html) is very important, please review it.
+
  ## create a new repository on the command line 
 ```echo "# html5-note" >> README.md
 git init
@@ -104,3 +108,4 @@ The `<ruby>` tag wraps the base text and its annotation, often using:
 - **Use Case**: Common in educational content, language learning tools, and East Asian typography.
 
 This is unrelated to the Ruby programming language. If you meant that, let me know!
+
