@@ -46,3 +46,16 @@ git clone git@github.com:aloopday/html5-note.git
 ```
 
 Let me know if you need help with SSH setup or further steps!
+
+## What is SQL
+
+SQL (Structured Query Language) is a standardized programming language used to manage and manipulate relational databases. It allows users to create, read, update, and delete data (CRUD operations) within a database, as well as define its structure and control access. SQL is widely used in database management systems like MySQL, PostgreSQL, SQL Server, and Oracle.
+
+Key functions include:
+- **Querying data**: Retrieving specific data using `SELECT` statements.
+- **Inserting data**: Adding records with `INSERT`.
+- **Updating data**: Modifying records with `UPDATE`.
+- **Deleting data**: Removing records with `DELETE`.
+- **Schema management**: Creating or altering tables with `CREATE` and `ALTER`.
+
+SQL is declarative, meaning you specify what data you want, and the database engine determines how to retrieve it. It’s essential for data analysis, reporting, and backend development.
