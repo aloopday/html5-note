@@ -1,4 +1,4 @@
-﻿ # My-Html5-Note
+��﻿ # My-Html5-Note
 
  ## HTML handbook
 
@@ -66,7 +66,7 @@ SQL is declarative, meaning you specify what data you want, and the database eng
 
 ##  What is SVG
 
-SVG (Scalable Vector Graphics) is an XML-based format for defining two-dimensional vector graphics. Unlike raster images (e.g., PNG, JPEG), SVG images are resolution-independent, meaning they can scale infinitely without losing quality, making them ideal for logos, icons, and illustrations on websites or applications.
+SVG (Scalable Vector Graphicsis an XML-based format for defining two-dimensional vector graphics. Unlike raster images (e.g., PNG, JPEG), SVG images are resolution-independent, meaning they can scale infinitely without losing quality, making them ideal for logos, icons, and illustrations on websites or applications.
 
 Key features:
 - **Vector-based**: Uses mathematical shapes (paths, lines, curves) instead of pixels, ensuring crisp visuals at any size.
@@ -90,7 +90,7 @@ The `<ruby>` element in HTML is used to represent ruby annotations, which are sm
 
 ### Structure
 The `<ruby>` tag wraps the base text and its annotation, often using:
-- `<rt>`: Specifies the ruby text (annotation) displayed above or beside the base text.
+- `<rt>`: Specifies the ruby text (annotationdisplayed above or beside the base text.
 - `<rp>`: Optional fallback for browsers that don’t support ruby, typically containing parentheses or other markers.
 
 ### Example
@@ -100,7 +100,7 @@ The `<ruby>` tag wraps the base text and its annotation, often using:
   <rp>(kanji)</rp>
 </ruby>
 ```
-- **Output**: Displays "漢字" with "かんじ" (kanji) as a small annotation above it. In browsers without ruby support, it might show as "漢字 (kanji)".
+- **Output**: Displays "漢字" with "かんじ" (kanjias a small annotation above it. In browsers without ruby support, it might show as "漢字 (kanji)".
 
 ### Key Points
 - **Purpose**: Enhances readability of ideographic scripts by providing pronunciation or meaning.
