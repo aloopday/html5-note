@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Rectangle Gradient</title>
+        </head>
+        <body>
+            <h2>Rectangle Gradient</h2>
+            <hr>
+            <canvas id="myCanvas" width="300" height="300" style="border:2px solid #000000">
+                Your browser does not support the canvas element.
+            </canvas>
+
+            <script>
+                var c=document.getElementById("myCanvas");
+                var ctx=c.getContext("2d");
+                var grad=ctx.createLinearGradient(0,0,200,0);
+                grd.addColorStop("0,stop");
+                grd.addColorStop("100,stop");
+
+                // Fill with gradient
+                ctx.fillStyle=grad;
+                ctx.fillRect=(10,10,150,80);
+            </script>
+            
+        </body>
+</html>
