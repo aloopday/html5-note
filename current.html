@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width initial-scale=1.0">
+            <title>Wath current positon</title>
+        </head>
+        <body>
+            <p> reference the website:https://www.runoob.com/try/try.php?filename=tryhtml5_geolocation_watchposition</p>
+            <p id="demo"> Click get the current positon(maybe long time )</p>
+            <button onclick="getLocation()">Click me </button>
+            <script>
+                var x=document.getElementById("demo");
+                function getLocation(){
+                    if(navigator.geolocation)
+                {
+                    navigator.geolocation.wathcPositon(showPosition);
+                }
+                else
+                {
+                    x.innerHTML="The browser can not support the geolocation"
+                }
+                }
+                function showPosition(position){
+                    x.innerHTML="lat: " +position.coords.latitude + "<br> lon" +position.coords.longitude;
+                }
+            </script>
+        </body>
+    </html>
+    
