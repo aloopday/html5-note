@@ -112,3 +112,7 @@ The `<ruby>` tag wraps the base text and its annotation, often using:
 
 This is unrelated to the Ruby programming language. If you meant that, let me know!
 
+## watch location code
+
+[Watch current location code](https://www.runoob.com/try/try.php?filename=tryhtml5_geolocation_watchposition)
+

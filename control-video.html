@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        <title>Pause </title>
+    </head>
+    <body>
+        <h2>Demo to control the video</h2>
+        <div style="text-align:center">
+            <button onclick="playPause()">paly/pause</button>
+            <button onclick="makeBig()">ZoomIn</button>
+            <button onclick="makeSmall()">ZoomOut</button>
+            <button onclick="makeNormal()">Normal</button>
+            <br>
+            <video id="video1" width="420">
+                <source src="mov.mp4" type="video/mp4">
+                <source src="mov.ogg" type="video/ogg">
+                Your browser can not support this tag.
+            </video>
+        </div>
+
+        <p> This is demo script</p>
+        <script>
+            let myVideo=document.getElementById("video1");
+          
+                function playPause(){
+                    if(myVideo.paused)
+                    myVideo.play();
+                    else
+                    myVideo.pause();
+                }
+                
+                function makeBig(){
+                    myVideo.width=560;
+                }
+                function makeSmall(){
+                    myVideo.width=320;
+                }
+                function makeNormal(){
+                    myVideo.width=420;
+                }
+            
+        </script>
+
+    </body>
+</html>
