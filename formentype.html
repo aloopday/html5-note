@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Formenctype</title>
+        <style>
+            #fname{
+                color:rgb(118, 180, 180);
+            }
+        </style>
+    </head>
+    <body>
+        <h2> enctype Attribute</h2>
+        <form action="https://www.runoob.com/try/demo_source/demo-post-enctype.php" method="post">
+            <label for="fname" id="fname">FirstName:</label>
+            <input type="text" name="fname" autofocus><br>
+            <label for="lname" id="lname">LastName:</label>
+            <input type="text" name="lname" autofocus><br>
+            <input type="submit" value="Submit">
+            <input type="submit" formenctype="multipart/form-data" value="Multipart/form-data">
+
+        </form>
+    </body>
+</html>
