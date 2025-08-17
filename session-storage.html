@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Session Storage Example</title>
+        <script>
+            function clickCounter()
+{
+    if(typeof(Storage)!==undefined){
+        if(sessionStorage.clickcount)
+        {
+            sessionStorage.clickcount = Number(sessionStorage.clickcount) + 1;
+        }
+        else{
+            sessionStorage.clickcount = 1;
+        }
+        document.getElementById("result").innerHTML= "Already clicked " +  sessionStorage.clickcount + "  times.";
+
+    }else{
+        document.getElementById("result").innerHTML="Sorry,your browser does not support web storage"
+    }
+}        </script>
+    </head>
+
+    <body style="background-color: lightpink">
+        <p><button onclick="clickCounter()" type="button"> click me !</button></p><br>
+        <div id="result">
+            <p>click to see the number result.</p>
+            <p>if you close the window , then  reopen the page , the counter will reset. </p>
+        </div>
+
+
+    </body>
+
+</html>
