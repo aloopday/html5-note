@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Dog circle</title>
+    </head>
+    <body>
+        <div id="result">
+        </div>
+        <script>
+            if(typeof(Storage)!=="undefine"){
+                //store
+                localStorage.setItem("sitename", "DogCircle");
+                //search
+                document.getElementById("result").innerHTML = "SiteName：" + localStorage.getItem("sitename");
+            }
+            else{
+                document.getElementById("result").innerHTML = "Sorry, your browser does not support web storage...";
+            }
+        </script>
+    </body>
+</html>
