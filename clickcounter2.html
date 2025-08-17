@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Click Counter</title>
+    <style>
+        body {
+            background-color: aqua;
+            font-family: Arial, sans-serif;
+        }
+        button {
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+    </style>
+    <script>
+        function clickCounter() {
+            if (window.localStorage) {
+                if ("clickcount" in localStorage) {
+                    localStorage.clickcount = Number(localStorage.clickcount) + 1;
+                } else {
+                    localStorage.clickcount = 1;
+                }
+                document.getElementById("result").textContent = 
+                    `You have clicked the button ${localStorage.clickcount} time${localStorage.clickcount == 1 ? '' : 's'}.`;
+            } else {
+                document.getElementById("result").textContent = 
+                    "Sorry, your browser does not support web storage.";
+            }
+        }
+    </script>
+</head>
+<body>
+    <button onclick="clickCounter()" aria-label="Increment click counter">Click me!</button>
+    <div id="result"></div>
+    <p>Click the button to increment the counter.</p>
+    <p>Close and reopen this page; the counter will persist.</p>
+</body>
+</html>

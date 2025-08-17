@@ -116,3 +116,19 @@ This is unrelated to the Ruby programming language. If you meant that, let me kn
 
 [Watch current location code](https://www.runoob.com/try/try.php?filename=tryhtml5_geolocation_watchposition)
 
+
+## Local Store
+[Local Store](https://www.runoob.com/html/html5-webstorage.html)
+
+不管是 localStorage，还是 sessionStorage，可使用的API都相同，常用的有如下几个（以localStorage为例）：
+
+保存数据：localStorage.setItem(key,value);
+读取数据：localStorage.getItem(key);
+删除单个数据：localStorage.removeItem(key);
+删除所有数据：localStorage.clear();
+得到某个索引的key：localStorage.key(index);
+提示: 键/值对通常以字符串存储，你可以按自己的需要转换该格式。
+
+下面的实例展示了用户点击按钮的次数。
+
+代码中的字符串值转换为数字类型:
